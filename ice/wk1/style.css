@@ -1,0 +1,17 @@
+header
+{
+    height: 50px;
+    padding: 7px;
+    margin: 15px;
+    border-radius: 7px;
+    background-color: cadetblue;
+}
+
+footer
+{
+    height: 50px;
+    padding: 7px;
+    margin: 15px;
+    border-radius: 7px;
+    background-color: brown ;
+}
