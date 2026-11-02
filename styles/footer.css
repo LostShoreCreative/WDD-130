@@ -1,0 +1,47 @@
+:root
+{
+    --primary-color: #169CAD;
+    --secondary-color: #FF715B;
+    --accent-color-1: #034357;
+    --accent-color-2: #774936;
+    --support-color: #E2E2E2;
+}
+
+footer
+{
+    display: flex;
+    height: 100px;
+    background-color: var(--accent-color-2);
+    display: grid;
+    grid-template-columns: 100px 25px;
+}
+
+.social-link
+{
+    margin: 0px 10px;
+    display: block;
+    height: 25px;
+    background-color: var(--primary-color);
+    text-align: center;
+    text-decoration: none;
+}
+
+.social-link:hover
+{
+    background-color: var(--secondary-color);
+    color: var(--support-color);
+}
+
+#linked-in
+{
+    margin-top: 10px;
+}
+
+#about-me
+{
+    margin-top: 70%;
+    width: 100px;
+    background-color: var(--primary-color);
+    text-align: center;
+    height: 50px;
+}

@@ -4,60 +4,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome Page</title>
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/footer.css">
 </head>
 <body>
     <header>
-        <a href="index.html">
-            <img src="" alt="">
+        <a href="index.html" id="logo">
+            <img src="images/lsc-logo2.png" alt="">
         </a>
-
+        <h1>
+            Portal Page
+        </h1>
         <nav>
-            <a href="wwr/index.html">WWR</a>
-            <a href="ice.html">ICE</a>
-            <a href="portfolio.html">Porfolio</a>
-            <a href="aboutme.html">About Me</a>
+            <a href="wwr/index.html" class="nav-link">WWR</a><a href="ice.html" class="nav-link">ICE</a><a href="aboutme.html" class="nav-link">About Me</a>
         </nav>
     </header>
 
     <main>
-
-
-
-        <section class="card" id="current-project">
-            <img src="" alt="">
-            <h2></h2>
-            <p></p>
-        </section>
         <section class="card featured-project">
-            <img src="" alt="">
-            <h2></h2>
-            <p></p>
+            <a href="wwr/index.html">
+                <img src="" alt="">
+            </a>
+            <h2>White Water Rafting Site</h2>
+            <p>A simple rafting site that serves to show a basic introduction to web development. It has a fairly well built design </p>
         </section>
+
         <section class="card featured-project">
-            <img src="" alt="">
-            <h2></h2>
+            <a href="">
+                <img src="" alt="">
+            </a>
+            <h2>Positioning Drills</h2>
             <p></p>
         </section>
     </main>
 
     <footer>
-        <a href="" class="social-link">
-            Youtube
-            <img src="" alt="">
-        </a>
-        <a href="" class="social-link">
-            Twitch
-            <img src="" alt="">
-        </a>
-        <a href="" class="social-link">
-            Github
-            <img src="" alt="">
-        </a>
+        <div id="links">
+            <a href="" class="social-link" id="linked-in">
+                Linked-In
+                <img src="" alt="">
+            </a>
 
-        <a href="mailto:">Email Me</a>
+            <a href="" class="social-link" id="github">
+                Github
+                <img src="" alt="">
+            </a>
+
+            <a href="mailto:" class="social-link" id="email">Email Me</a>
+        </div>
 
         <a href="" id="about-me">About Me</a>
-        <a href="" id="portfolio-footer">Portfolio</a>
     </footer>
 </body>
 </html>
