@@ -1,0 +1,36 @@
+:root
+{
+    --primary-color: #169CAD;
+    --secondary-color: #FF715B;
+    --accent-color-1: #034357;
+    --accent-color-2: #774936;
+    --support-color: #E2E2E2;
+}
+
+.ice-card
+{
+    padding: 10px;
+    margin: 10px auto;
+    text-align: center;
+    background-color: var(--accent-color-1);
+    max-width: 500px;
+    border-radius: 5px;
+}
+
+.ice-card a
+{
+    text-decoration: none;
+    color: var(--support-color);
+    font-size: large;
+}
+
+.ice-card a:hover
+{
+    background-color: var(--secondary-color);
+}
+
+.ice-card p
+{
+    text-align: left;
+    color: var(--support-color);
+}

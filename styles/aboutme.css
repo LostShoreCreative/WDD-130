@@ -1,0 +1,55 @@
+:root
+{
+    --primary-color: #169CAD;
+    --secondary-color: #FF715B;
+    --accent-color-1: #034357;
+    --accent-color-2: #774936;
+    --support-color: #E2E2E2;
+}
+
+main
+{
+    display: grid;
+    grid-template-columns: 175px 725px;
+}
+
+#skills
+{
+    padding: 7px;
+    margin: 15px auto;
+    grid-row: 1/3;
+    grid-column: 1/2;
+    background-color: var(--accent-color-1);
+    color:var(--support-color);
+    border-radius: 7px;
+}
+
+#skills h2
+{
+    text-align: center;
+}
+
+table
+{
+    border: 3px solid var(--accent-color-1);
+}
+
+#work-experience
+{
+    place-items: center;
+}
+
+#intro
+{
+    place-items: center;
+}
+
+#intro p
+{
+    max-width: 500px;
+}
+
+th, td
+{
+    border: 3px solid var(--accent-color-1);
+}

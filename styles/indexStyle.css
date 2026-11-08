@@ -1,0 +1,43 @@
+:root
+{
+    --primary-color: #169CAD;
+    --secondary-color: #FF715B;
+    --accent-color-1: #034357;
+    --accent-color-2: #774936;
+    --support-color: #E2E2E2;
+    background-color: var(--support-color);
+}
+
+section
+{
+    max-width: 500px;
+    margin: 10px auto;
+    background-color: var(--accent-color-1);
+    color: var(--support-color);
+    padding: 7px;
+}
+
+.card
+{
+    display: grid;
+    grid-template-columns: 2;
+}
+
+.card-image
+{
+    width: 100px;
+}
+
+.card a
+{
+    margin-top: 2rem;
+    margin-right: 10px;
+    grid-column: 1/2;
+    grid-row: 1/3;
+}
+
+.card h2
+{
+    grid-row: 1/2;
+}
+

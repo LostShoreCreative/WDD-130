@@ -24,6 +24,7 @@ footer
     background-color: var(--primary-color);
     text-align: center;
     text-decoration: none;
+    color: var(--support-color);
 }
 
 .social-link:hover
@@ -44,4 +45,12 @@ footer
     background-color: var(--primary-color);
     text-align: center;
     height: 50px;
+    color: var(--support-color);
+    text-decoration: none;
+}
+
+#about-me:hover
+{
+    color: var(--support-color);
+    background-color: var(--secondary-color);
 }
